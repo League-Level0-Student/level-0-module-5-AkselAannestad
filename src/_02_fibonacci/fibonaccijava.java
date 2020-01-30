@@ -4,11 +4,13 @@ public class fibonaccijava {
 public static void main(String[] args) {
 	int x;
 	int y;
-x=1; 
-System.out.println(x);
-
-	
-	
+	int z;
+x=0; 
+y=1;
+	for(int i=0;i<12;i++) {
+		x=x+y;
+		
+	}
 
 	
 	

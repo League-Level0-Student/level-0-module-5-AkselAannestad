@@ -5,17 +5,23 @@ public static void main(String[] args) {
 	int x;
 	int y;
 	int z;
-x=0; 
+x=1; 
 y=0;
-z=0;
+
+//x=;
+//y=;
+//z=x;
+//x=y;
+//y=z;
 	for(int i=0;i<12;i++) {
-		System.out.println(z);
-		y=x;
-		x+=1;
-		z=x+=y;
+		
+		z=x+y;
+	x=y;
+	y=z;
 	
 		
-	
+	System.out.println(z);
+		
 	}
 
 	

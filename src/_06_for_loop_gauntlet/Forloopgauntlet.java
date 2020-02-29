@@ -20,11 +20,17 @@ public static void main(String[] args) {
 	}
 
 //even from 2-100
-int z =0;
-for(int i =0; i<50; i++) {
-z+=2;
-System.out.println(z);
-}
+	int z =0;
+	for(int i =0; i<50; i++) {
+		z+=2;
+		//System.out.println(z);
+	}
 
+//odd from 1-99
+	
+	
+	
+	
+	
 
 }}

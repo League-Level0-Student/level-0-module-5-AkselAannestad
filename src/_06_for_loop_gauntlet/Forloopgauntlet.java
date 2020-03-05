@@ -49,10 +49,10 @@ public static void main(String[] args) {
 	int year=2004;
 	int years=0;
 	for (int i = 0; i<16; i++) {
-		System.out.println("In "+year+" I was "+years+" years old");
+		//System.out.println("In "+year+" I was "+years+" years old");
 		years=years+1;
 		year=year+1;
 	}
-	
+//
 
 }}

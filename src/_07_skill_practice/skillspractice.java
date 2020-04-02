@@ -4,11 +4,11 @@ import javax.swing.JOptionPane;
 public class skillspractice {
 public static void main(String[] args) {
 	skillspractice skills= new skillspractice();
-		//skills.skill1();
-		//skills.skill2();
-		//skills.skill3();
+		skills.skill1();
+		skills.skill2();
+		skills.skill3();
 		skills.skill4();
-		//skills.skill5();
+		skills.skill5();
 }
  void skill1() {
 	String dimes=JOptionPane.showInputDialog("how many dimes do you have?");
@@ -33,17 +33,28 @@ public static void main(String[] args) {
 		Random r =new Random();
 		int rint=r.nextInt(20);
 		System.out.println(rint);
+		Random r2=new Random();
+		int rint2=r2.nextInt(20);
+		System.out.println(rint2);
+		if (rint>rint2) {
+		JOptionPane.showMessageDialog(null,(rint-rint2) );}
+		else {JOptionPane.showMessageDialog(null, (rint2-rint) );
+		}
+		}
 		
-	}
-	void skill4() {
-		boolean city=JOptionPane.showInputDialog("do you live in san diego?") != null;
 	
-	if (city==true) {
-	JOptionPane.showMessageDialog(null, "You live in Americas finest city");}
-	else {
-		JOptionPane.showMessageDialog(null, "Move there");
+	void skill4() {
+		boolean city;
+		String ask=JOptionPane.showInputDialog("Do you live in San Diego? (1 for yes, 2 for no)");
+		int num=Integer.parseInt(ask);
+		if (num==1) {JOptionPane.showMessageDialog(null, "you live in americas finest city");}
+		else {JOptionPane.showMessageDialog(null, "move there nerd!");}
+		
+		String cars=JOptionPane.showInputDialog("how many cars do you have?");
+		int carint=Integer.parseInt(cars);
+		JOptionPane.showMessageDialog(null, "Your cars have "+carint*4+" wheels in total");
 	}
-	}
+	
 	
 	void skill5() {
 		String school=JOptionPane.showInputDialog("What is the name of your school");

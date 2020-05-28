@@ -15,6 +15,6 @@ int check = 0;
 	}
 if(check==0) {System.out.print("The number is not prime");}
 else {System.out.print("The number is prime");}
-	
+
 }
 }

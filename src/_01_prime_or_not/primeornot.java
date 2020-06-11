@@ -16,5 +16,12 @@ int check = 0;
 if(check==0) {System.out.print("The number is not prime");}
 else {System.out.print("The number is prime");}
 
+
+for(int i = 0; i < 20; i++){
+	if(i % 2 == 0){
+		System.out.print(i + ", ");
+	}
+
+ 
 }
-}
+}}

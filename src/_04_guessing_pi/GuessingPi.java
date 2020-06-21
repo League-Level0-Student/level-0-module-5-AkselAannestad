@@ -33,7 +33,14 @@ public class GuessingPi {
 
 					// 8. If they are not, print out "incorrect" and tell them
 					//    to start over. Use 'break;' to break out of the loop.
+public static void main(String [] args) {
+	String pi = "3.14";
 
+	
+	
+	
+	
+}
 }
 
 

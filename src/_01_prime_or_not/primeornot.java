@@ -3,7 +3,7 @@ package _01_prime_or_not;
 import javax.swing.JOptionPane;
 
 public class primeornot {
-public static void main(String [] args) {
+public static void main(String[] args){
 	// TODO Auto-generated method stub
 int check = 0;
 	String x=JOptionPane.showInputDialog("enter a number and lets see if its prime");
